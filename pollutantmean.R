@@ -1,4 +1,4 @@
-pollutantmean <- function(directory, pollutant, id ) {
+pollutantmean <- function(directory, pollutant, id = 1:332) {
   curDir <- getwd()
   setwd(directory)
   comV = 0
